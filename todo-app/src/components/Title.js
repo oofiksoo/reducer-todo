@@ -21,7 +21,7 @@ const Title = () => {
           {titleState.title}
         </h1>
       ) : (
-        <div>
+        <div className="setTitle">
           <input
             className="title-input"
             type="text"
@@ -35,7 +35,7 @@ const Title = () => {
               dispatch({ type: "TOGGLE_EDIT" });
             }}
           >
-            Update title
+            Set List Name
           </button>
         </div>
       )}

@@ -1,5 +1,5 @@
 export const initialState = {
-  title: "Click here to set List Name",
+  title: "Click to set To-Do List Name",
   editing: false
 };
 
