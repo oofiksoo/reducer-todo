@@ -16,8 +16,10 @@ function Todo({ todo, dispatch }) {
       className={`todo${todo.completed ? "completed" : ""}`}
       style={{
         textDecoration: todo.completed ? "line-through" : "",
-        backgroundColor: todo.completed ? "red" : "",
-        fontStyle: todo.completed ? "italic" : ""
+        color: todo.completed ? "red" : "",
+        fontStyle: todo.completed ? "italic" : "",
+        opacity: todo.completed ? "0.5" : "",
+        fontWeight: todo.completed ? "bolder" : ""
       }}
     >
       <p>{todo.item}</p>

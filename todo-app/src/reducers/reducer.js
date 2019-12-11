@@ -1,6 +1,6 @@
 export const todo = [
   {
-    item: "Learn about reducers",
+    item: "Create To-Do List App",
 
     completed: false,
 
