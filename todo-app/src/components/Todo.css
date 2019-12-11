@@ -41,14 +41,23 @@ h1 {
     box-shadow: 2px 2px 2px black;
 }
 
-.Todo-list {
+.todo-list {
     display: flex;
     flex-direction: column;
     width: 60%;
     margin: 0 auto;
 }
 
-.Todo-list button {
+.todo-list h3 {
+    background-color: skyblue;
+    border: 0px solid skyblue;
+    border-radius: 2rem;
+    margin: 2rem 0rem;
+    padding: 0rem 0.5rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+.todo-list button {
     width: 10rem;
     margin: 0.5rem 0rem;
 }
@@ -102,7 +111,9 @@ h1 {
     font-weight: bold;
 }
 
-.item p {
+.item li {
+    margin: 0.5rem;
+    font-weight: bolder;
     color: black;
     padding: 0rem 0.2rem;
 }

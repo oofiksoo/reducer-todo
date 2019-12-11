@@ -22,7 +22,7 @@ function Todo({ todo, dispatch }) {
         fontWeight: todo.completed ? "bolder" : ""
       }}
     >
-      <p>{todo.item}</p>
+      <li> {todo.item} </li>
     </div>
   );
 }
