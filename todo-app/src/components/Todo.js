@@ -10,7 +10,6 @@ function Todo({ todo, dispatch }) {
   };
 
   console.log(todo);
-
   return (
     <div
       onClick={toggleCompleted}

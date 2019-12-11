@@ -16,13 +16,6 @@ const TodoForm = ({ dispatch }) => {
     setItem("");
   };
 
-  const clearCompleted = e => {
-    e.preventDefault();
-    dispatch({
-      type: "CLEAR_COMPLETED"
-    });
-  };
-
   return (
     <div className="form">
       <form onSubmit={submitForm}>
@@ -31,10 +24,7 @@ const TodoForm = ({ dispatch }) => {
         </label>
 
         <input name="todo" onChange={handleChanges} value={item} />
-
         <button>Add To-Do</button>
-
-        <button onClick={clearCompleted}>Completed</button>
       </form>
     </div>
   );

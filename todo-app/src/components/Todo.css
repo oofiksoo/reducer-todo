@@ -50,14 +50,20 @@ h1 {
     margin: 0 auto;
 }
 
-.Todo-list h2 {
+.Todo-list button {
+    width: 50%;
+    margin: 0.5rem 0rem;
+}
+
+.titleBox h1 {
     text-shadow: 2px 2px 2px gray;
     box-shadow: 2px 2px 2px black;
     text-align: center;
     background-color: skyblue;
     border: 0px solid skyblue;
     border-radius: 2rem;
-    width: 100%;
+    width: 87%;
+    margin: 2rem 0rem;
 }
 
 .item {
@@ -65,7 +71,7 @@ h1 {
     width: 100%;
     text-align: left;
     margin: 4px 0;
-    padding: 0.5rem 0.2rem;
+    padding: 0.2rem;
     cursor: pointer;
     border-radius: 12px;
     box-shadow: 3px 3px 3px black;
@@ -81,32 +87,33 @@ form {
     width: 20%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     position: absolute;
     right: 1rem;
-    top: 0.2rem;
+    top: -0.09rem;
 }
 
 form>input {
     border: 0;
     padding: 0.3rem;
     font-size: 1rem;
-    width: 240px;
+    width: 20rem;
     height: 1.5rem;
     outline: 0;
     color: black;
     border-bottom: 2px solid black;
-    margin-right: 8px;
+    margin: 0.5rem;
     background-color: whitesmoke;
     border-radius: 2rem;
+    box-shadow: 4px 4px 4px black;
 }
 
 button {
     background-color: black;
     border: 1px solid black;
     color: white;
-    font-size: 16px;
     font-weight: bolder;
-    padding: 6px 14px;
+    padding: 0.5rem;
     border-radius: 12px;
     box-shadow: 4px 4px 4px black;
     margin: 0rem 0.5rem;
